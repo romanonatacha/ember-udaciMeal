@@ -1,0 +1,18 @@
+body {
+    font-family: sans-serif;
+    color: rgb(85, 85, 85);
+}
+
+.items-container {
+    text-align: center;
+    padding: 0;
+}
+
+.menu-item {
+    display: inline-block;
+    padding: 30px;
+}
+
+.menu-item img {
+    width: 300px;
+}
