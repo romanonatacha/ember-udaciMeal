@@ -4,9 +4,9 @@
     {{#each model as |item|}}
     <li class="menu-item">
         <h4>{{item.name}}</h4>
-        <img src="{{item.img}}" alt="{{item.name}}">
+        <img src="/img/{{item.image}}" alt="{{item.name}}">
         <p>
-            <a href="{{item.id}}">Details</a>
+            {{#link-to 'item' item.id}}Details{{/link-to}}
         </p>
     </li>
     {{/each}}
