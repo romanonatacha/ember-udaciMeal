@@ -1,6 +1,7 @@
 body {
     font-family: sans-serif;
     color: rgb(85, 85, 85);
+    text-align: center;
 }
 
 .items-container {
@@ -11,8 +12,14 @@ body {
 .menu-item {
     display: inline-block;
     padding: 30px;
+    list-style: none;
 }
 
 .menu-item img {
     width: 300px;
+}
+
+.order-tracker__day {
+    display: inline-block;
+    margin: 20px;
 }
