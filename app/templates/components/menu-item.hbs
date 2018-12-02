@@ -1,0 +1,9 @@
+<li>
+    <h4>{{food.name}}</h4>
+    <img src="/img/{{food.image}}" alt="{{food.name}}">
+    <p>
+        {{#link-to 'item' food.id}}Details{{/link-to}}
+    </p>
+</li>
+
+{{yield}}
