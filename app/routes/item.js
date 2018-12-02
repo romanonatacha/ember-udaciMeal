@@ -1,7 +1,8 @@
 import Route from '@ember/routing/route';
+import $ from 'jquery';
 
 export default Route.extend({
     model(params) {
-        return Ember.$.get('/menu/' + params.item_name + '.json');
+        return $.get('/menu/' + params.item_name + '.json');
     }
 });
